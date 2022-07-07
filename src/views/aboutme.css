@@ -48,6 +48,12 @@
   font-style: normal;
   margin-bottom: var(--dl-space-space-halfunit);
 }
+.aboutme-link {
+  display: contents;
+}
+.aboutme-component1 {
+  text-decoration: none;
+}
 .aboutme-container03 {
   display: flex;
   align-items: flex-start;
@@ -74,6 +80,12 @@
   color: var(--dl-color-secondary-700);
   font-style: normal;
   font-weight: 600;
+}
+.aboutme-link1 {
+  display: contents;
+}
+.aboutme-component2 {
+  text-decoration: none;
 }
 .aboutme-contact {
   width: 100%;
@@ -236,7 +248,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-unit);
 }
-.aboutme-link {
+.aboutme-link2 {
   opacity: 0.8;
   text-decoration: none;
 }

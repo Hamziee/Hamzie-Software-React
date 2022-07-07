@@ -26,7 +26,17 @@ const Aboutme = (props) => {
         <div className="aboutme-container01">
           <div className="aboutme-container02">
             <h4 className="aboutme-text">Hamza</h4>
-            <OutlineBlueButton button="follow"></OutlineBlueButton>
+            <a
+              href="https://github.com/Hamziee"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="aboutme-link"
+            >
+              <OutlineBlueButton
+                button="follow"
+                className="aboutme-component1"
+              ></OutlineBlueButton>
+            </a>
           </div>
           <div className="aboutme-container03">
             <span className="aboutme-text01">
@@ -48,7 +58,17 @@ const Aboutme = (props) => {
             I&apos;ve been a computer guy since I was young. And want to work on
             cool and fun projects!
           </span>
-          <NextButton button="More about me"></NextButton>
+          <a
+            href="https://github.com/Hamziee"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="aboutme-link1"
+          >
+            <NextButton
+              button="More about me"
+              className="aboutme-component2"
+            ></NextButton>
+          </a>
         </div>
       </div>
       <div className="aboutme-contact">
@@ -111,7 +131,7 @@ const Aboutme = (props) => {
                   </svg>
                   <a
                     href="mailto:hamzaimzouren@gmail.com?subject="
-                    className="aboutme-link small"
+                    className="aboutme-link2 small"
                   >
                     hamzaimzouren@gmail.com
                   </a>
