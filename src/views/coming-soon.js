@@ -18,7 +18,7 @@ const ComingSoon = (props) => {
           CloudCraft is coming soon.
         </h1>
         <p className="coming-soon-text1 lead">
-          <span className="coming-soon-text2">EST: June 15th 2022</span>
+          <span className="coming-soon-text2">EST: July 17th 2022</span>
         </p>
       </div>
       <footer className="coming-soon-footer">
