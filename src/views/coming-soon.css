@@ -14,13 +14,12 @@
   display: flex;
   z-index: 2;
   align-self: flex-end;
-  margin-top: var(--dl-space-space-sixunits);
+  margin-top: 137px;
   align-items: flex-start;
   margin-left: var(--dl-space-space-tripleunit);
   padding-top: var(--dl-space-space-tripleunit);
   margin-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-tripleunit);
 }
 .coming-soon-text {
   font-size: 3rem;
@@ -77,6 +76,11 @@
   }
 }
 @media(max-width: 479px) {
+  .coming-soon-container1 {
+    height: 419px;
+    padding-top: 136px;
+    padding-bottom: 81px;
+  }
   .coming-soon-footer {
     padding: var(--dl-space-space-unit);
     flex-direction: column;

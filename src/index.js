@@ -7,6 +7,7 @@ import Page from './views/page'
 import ComingSoon from './views/coming-soon'
 import Aboutus from './views/aboutus'
 import Home from './views/home'
+import Page1 from './views/page1'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route exact component={ComingSoon} path="/coming-soon" />
         <Route exact component={Aboutus} path="/aboutus" />
         <Route exact component={Home} path="/" />
+        <Route exact component={Page1} path="/page1" />
       </div>
     </Router>
   )
