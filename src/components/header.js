@@ -50,7 +50,7 @@ const Header = (props) => {
             <Link to="/" className="header-navlink3 large">
               Home
             </Link>
-            <Link to="/profile" className="header-navlink4 large">
+            <Link to="/aboutus" className="header-navlink4 large">
               Profile
             </Link>
             <Link to="/coming-soon" className="header-navlink5 large">

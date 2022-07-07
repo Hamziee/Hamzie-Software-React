@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -39,7 +40,12 @@ const Home = (props) => {
             </span>
             <div className="home-container2">
               <div className="home-container3">
-                <PrimaryPinkButton button="GO TO CLOUDCRAFT"></PrimaryPinkButton>
+                <Link to="/coming-soon" className="home-navlink">
+                  <PrimaryPinkButton
+                    button="GO TO CLOUDCRAFT"
+                    className="home-component1"
+                  ></PrimaryPinkButton>
+                </Link>
               </div>
               <OutlineGrayButton
                 button="read more"

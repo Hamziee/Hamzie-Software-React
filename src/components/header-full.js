@@ -16,7 +16,7 @@ const HeaderFull = (props) => {
             <Link to="/" className="header-full-navlink1 large">
               Home
             </Link>
-            <Link to="/profile" className="header-full-navlink2 large">
+            <Link to="/aboutus" className="header-full-navlink2 large">
               Profile
             </Link>
             <Link to="/coming-soon" className="header-full-navlink3 large">
