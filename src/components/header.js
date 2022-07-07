@@ -16,8 +16,12 @@ const Header = (props) => {
             <Link to="/" className="header-navlink1 large">
               Home
             </Link>
-            <span className="header-text large">CloudCraft</span>
-            <span className="header-text1 large">About Us</span>
+            <Link to="/cloud-craft" className="header-navlink2 large">
+              CloudCraft
+            </Link>
+            <Link to="/aboutme" className="header-navlink3 large">
+              About Me
+            </Link>
           </div>
           <div className="header-container1">
             <div className="header-container2">
@@ -36,7 +40,7 @@ const Header = (props) => {
       </nav>
       <div data-type="MobileMenu" className="header-mobile-menu">
         <div className="header-top">
-          <Link to="/" className="header-navlink2 large">
+          <Link to="/" className="header-navlink4 large">
             Soft UI Design System
           </Link>
           <div data-type="CloseMobileMenu" className="header-close-menu">
@@ -47,13 +51,13 @@ const Header = (props) => {
         </div>
         <div className="header-mid">
           <div className="header-menu1">
-            <Link to="/" className="header-navlink3 large">
+            <Link to="/" className="header-navlink5 large">
               Home
             </Link>
-            <Link to="/aboutus" className="header-navlink4 large">
+            <Link to="/aboutme" className="header-navlink6 large">
               Profile
             </Link>
-            <Link to="/coming-soon" className="header-navlink5 large">
+            <Link to="/cloud-craft" className="header-navlink7 large">
               Coming Soon
             </Link>
           </div>

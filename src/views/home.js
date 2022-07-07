@@ -40,7 +40,7 @@ const Home = (props) => {
             </span>
             <div className="home-container2">
               <div className="home-container3">
-                <Link to="/coming-soon" className="home-navlink">
+                <Link to="/cloud-craft" className="home-navlink">
                   <PrimaryPinkButton
                     button="GO TO CLOUDCRAFT"
                     className="home-component1"
