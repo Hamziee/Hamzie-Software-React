@@ -78,7 +78,7 @@ const Aboutme = (props) => {
               <span>Say Hi!</span>
             </h2>
             <span className="aboutme-text13 lead">
-              We&apos;d like to talk with you.
+              I&apos;d like to talk with you.
             </span>
             <form className="aboutme-form1">
               <label className="aboutme-text14 label">My name is</label>
