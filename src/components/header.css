@@ -206,7 +206,13 @@
   }
 }
 @media(max-width: 479px) {
+  .header-menu {
+    display: none;
+  }
   .header-container2 {
+    display: none;
+  }
+  .header-mobile-menu {
     display: none;
   }
 }

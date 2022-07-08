@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import PropTypes from 'prop-types'
+
 import PrimaryPinkButton from './primary-pink-button'
 import './header.css'
 
@@ -41,7 +43,7 @@ const Header = (props) => {
       <div data-type="MobileMenu" className="header-mobile-menu">
         <div className="header-top">
           <Link to="/" className="header-navlink4 large">
-            Soft UI Design System
+            {props.text}
           </Link>
           <div data-type="CloseMobileMenu" className="header-close-menu">
             <svg viewBox="0 0 1024 1024" className="header-icon2">
@@ -54,11 +56,11 @@ const Header = (props) => {
             <Link to="/" className="header-navlink5 large">
               Home
             </Link>
-            <Link to="/aboutme" className="header-navlink6 large">
-              Profile
+            <Link to="/cloud-craft" className="header-navlink6 large">
+              CloudCraft
             </Link>
-            <Link to="/cloud-craft" className="header-navlink7 large">
-              Coming Soon
+            <Link to="/aboutme" className="header-navlink7 large">
+              About me
             </Link>
           </div>
         </div>
@@ -68,6 +70,14 @@ const Header = (props) => {
       </div>
     </div>
   )
+}
+
+Header.defaultProps = {
+  text: 'Hamzie Software',
+}
+
+Header.propTypes = {
+  text: PropTypes.string,
 }
 
 export default Header
