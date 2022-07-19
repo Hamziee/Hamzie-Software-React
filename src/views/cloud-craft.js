@@ -15,10 +15,10 @@ const CloudCraft = (props) => {
       <Header></Header>
       <div className="cloud-craft-container1">
         <h1 className="cloud-craft-text headingOne">
-          CloudCraft is coming soon.
+          CloudCraft production temporarily stopped.
         </h1>
         <p className="cloud-craft-text1 lead">
-          <span className="cloud-craft-text2">EST: July 17th 2022</span>
+          <span className="cloud-craft-text2">EST: Unkown</span>
         </p>
       </div>
       <footer className="cloud-craft-footer">
